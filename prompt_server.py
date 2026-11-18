@@ -8,7 +8,7 @@ def explain_topic(topic: str, level: str = "beginner") -> str:
     """Create a simple explanation prompt for a school topic."""
     return (
         f"Explain the topic '{topic}' for a {level} student. "
-        f"Use very simple words, short sentences, and one real-life example."
+        f"Use very simple words, short sentences, and 1 real-life example."
     )
 
 
