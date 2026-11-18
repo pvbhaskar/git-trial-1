@@ -14,7 +14,7 @@ async def main():
         async with ClientSession(read, write) as session:
             await session.initialize()
 
-            print("\nConnected to Study Prompt Server.\n")
+            print("\nConnected to study Prompt Server.\n")
 
             while True:
                 print("Choose an option:")
